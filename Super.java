@@ -1,7 +1,7 @@
 class Super
 {
-int i=10;
-static int j=20;
+int i=20;
+static int j=30;
 
 
 void m1()
@@ -18,8 +18,8 @@ static void m2()
 
 class Sub extends Super
 {
-int k=10;
-static int m=20;
+int k=20;
+static int m=30;
 void m3()
 {
     System.out.println("Sub instance method");
